@@ -1,4 +1,4 @@
-//using getter and setter we can access the privte content of the class by the outsideer main function also
+//using getter and setter we can access the privte content of the class by the outsider main function also
 #include<iostream>
 using namespace std;
 class Hero{
@@ -41,3 +41,5 @@ int main(){
 //     cout<<"h1 Health is"<<h1.getHealth()<<endl;
 //     cout<<"h1 level"<<h1.getlevel()<<endl;
 }
+//use case of setter-it can restrict only certaim user to modify something  in case . 
+//what is padding -its adding of extra byte so that our os will work smoothly. if our os is of 64 bits tgen 8 byte is reserved for each operation of data type

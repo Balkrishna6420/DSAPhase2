@@ -1,8 +1,8 @@
 //Destructor -it is deallocation of memory
 //Its name is same as class name
-//It alsi has no return type and no input parameter
-//it is automaticaaled made after the object cfeation or it can manualyy be created also.
-//it is same as destructor and the difference is that it has tilda sign like ~ .
+//It also has no return type and no input parameter
+//it is automaticaaled made after the object creation or it can manualyy be created also.
+//it is same as constructor and the difference is that it has tilda sign like ~ .
 //destructor is called automatocally for statically allocated object but not for dynamically allocated object.we have to call it manually like delete
 #include<bits/stdc++.h>
 using namespace std;
@@ -84,7 +84,7 @@ int main(){
 
     //dynamically made object
     Hero *b=new Hero();
-    //to call the destructor of it we have tp mnually call it like
+    //to call the destructor dynamically made  we have to mnually call it like
     delete b;
 
 }

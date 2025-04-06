@@ -1,12 +1,13 @@
 //If one class inherit the characteristic/properties of another class ,it is known as inheritance
 //It has two class-1)sub class-the class that inherit properties from another class is called sub cladss
-                //2)super class-the class whose properrties are inherited by the sub class is caleed super class
+                //2)super class/base class-the class whose properrties are inherited by the sub class is caleed super class
 //Advantages:-
       //1)code reusability
       //2) runtime polymorphism (method overriding) can be achieved by inherianve only
 //private data member of any class cannot be inherited      
 //protected-it is similar to private which is accessed inside the class only but in this scenario it can also be accessed by child class or derived class   .here answer will return only ias protected way.  
-//if parent class is private no matter whts the inherit mode it is not accessible            
+//if parent class is private no matter whts the inherit mode it is not accessible  
+
 #include<iostream>
 using namespace std;
 

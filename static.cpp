@@ -70,7 +70,7 @@ class Hero {
     }
     //static data function-it does not use this keyword as it only acess to functions of static member not class 
     static int random(){
-        return timeToComplete;
+        return timeToComplete;//static function only access static implemented data members,here no helth,name erc
     }
     //destructor
     ~Hero(){
@@ -79,7 +79,7 @@ class Hero {
 
 
 };
-int Hero::timeToComplete = 5;//for initialisation of static keyword 
+int Hero::timeToComplete = 5;//for initialisation of static keyword ,:: this is scope resolution operator
 int main(){
    // cout<<Hero::timeToComplete<<endl;
     cout<<Hero::random()<<endl;

@@ -1,6 +1,6 @@
 // object-It is an entity which has state/properties and behaviour
 // class-Hero ram:-It is user defined data type like int a.char ch,etc
-//in case of empty class the memory allocated to the object is of 1 byte
+//in case of empty class the memory allocated to the object is of 1 byte for identification/keeping tracks of records
 //by default in class access modifiers is private
 //to acess the content we use dot operator 
 /*

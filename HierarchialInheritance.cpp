@@ -8,7 +8,6 @@ class A {
     void func1() {
         cout << "Inside Funcion 1" << endl;
     }
-
 };
 
 class B: public A {

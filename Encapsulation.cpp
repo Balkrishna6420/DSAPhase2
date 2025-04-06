@@ -4,7 +4,7 @@
 //Advantages:- 1)Data hiding thus providing more security
             // 2)we we want we can make class read only using getter and not using setter
             // 3) code reusability
-            //4)it is used in unit testing
+            //4)it is used in unit testing.
 //Implementation:-
 
 #include<iostream>

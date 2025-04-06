@@ -6,7 +6,7 @@ class Hero{
     public:
     char level;
 
-    Hero(){//once we write our manual constructor default constructor generatwd i  the system will be omitted
+    Hero(){
         cout<<"Constructor called"<<endl;
     }
     Hero(int health){//parametrized constructor 
@@ -45,6 +45,6 @@ int main(){
     Hero ram(70,'c');
     ram.print();
 
-    Hero Shyam(ram);//default copy constructor
+    Hero Shyam(ram);//default copy constructor called here if we cant create our own just like default constructor
     Shyam.print();
 }

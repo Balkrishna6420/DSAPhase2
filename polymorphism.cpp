@@ -1,7 +1,7 @@
 //poly means many,morph means forms.Inshort existing in many forms.
 //your pitaji can be a son,father,brother and cab be a husband
-//It is of two types: Run time and compile time/ststic polymorphism.
-//compile time is of two types 1) function overloading 2)operator overloading
+//It is of two types: Run time and compile time/static polymorphism.
+//compile time is of two types and is acieved through 1) function overloading 2)operator overloading
 //function overloading-same function ko multiple forms me likhna hai.
 //Function overloading is a feature of object-oriented programming where two or more functions can have the same name but different parameters.
 //function overloading
@@ -25,28 +25,14 @@ class A {
     }
 
 };
+int main(){
+    A obj;
+    obj.sayHello("Krishna");
+}
 
 //operator overloading-kisi ek operatoe se multiple kaam k,arwa sakta hoo  
 #include<iostream>
 using namespace std;
-
-class A {
-
-    public:
-    void sayHello() {
-        cout << "Hello Love Babbar" << endl;
-    }
-    
-    int sayHello(char name) {
-        cout << "Hello Love Babbar" << endl;
-        return 1;
-    }
-
-    void sayHello(string name) {
-        cout << "Hello " << name  << endl;
-    }
-
-};
 
 class B {
     public:

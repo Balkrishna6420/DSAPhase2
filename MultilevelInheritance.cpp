@@ -1,7 +1,5 @@
 #include<iostream>
 using namespace std;
-
-
 class Animal {
 
     public:
@@ -26,7 +24,7 @@ class GermanShepherd: public Dog {
 
 int main() {
 
-    GermanShepherd g;
+    GermanShepherd g;//object
     g.speak();
 
 
